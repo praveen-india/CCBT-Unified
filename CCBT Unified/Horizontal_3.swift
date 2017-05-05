@@ -86,15 +86,15 @@ extension Horizontal_3{
         self.collection_3_Views.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 34).isActive = true
         self.collection_3_Views.centerXAnchor.constraint(equalTo: self.view.centerXAnchor, constant: 0).isActive = true
         self.collection_3_Views.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.9, constant: -54).isActive = true
-        self.collection_3_Views.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.87, constant: 0).isActive = true
+        self.collection_3_Views.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.95, constant: 0).isActive = true
         
     }
     
     func setContinueBtnConstraint(){
-        self.continueBtn.topAnchor.constraint(equalTo: self.collection_3_Views.bottomAnchor, constant: 10).isActive = true
-        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -10).isActive = true
+        self.continueBtn.topAnchor.constraint(equalTo: self.collection_3_Views.bottomAnchor, constant: 8).isActive = true
+        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -8).isActive = true
         self.continueBtn.trailingAnchor.constraint(equalTo: self.collection_3_Views.trailingAnchor, constant: 0).isActive = true
-        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.24, constant: 0).isActive = true
+        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.2, constant: 0).isActive = true
     }
     
 }

@@ -94,10 +94,10 @@ extension LeadingVertical_2_TrillingVertical_1 {
         self.customView3.bottomAnchor.constraint(equalTo: self.coustomView2.bottomAnchor, constant: 0).isActive     =   true
     }
     func setContinueBtnConstraint(){
-        self.continueBtn.topAnchor.constraint(equalTo: self.coustomView2.bottomAnchor, constant: 10).isActive       =   true
-        self.continueBtn.trailingAnchor.constraint(equalTo: self.customView3.trailingAnchor, constant: -20).isActive       =   true
-        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -10).isActive   =   true
-        self.continueBtn.widthAnchor.constraint(equalTo: self.coustomView2.widthAnchor, multiplier: 0.3, constant: 0).isActive = true
+        self.continueBtn.topAnchor.constraint(equalTo: self.coustomView2.bottomAnchor, constant: 5).isActive                    =   true
+        self.continueBtn.trailingAnchor.constraint(equalTo: self.customView3.trailingAnchor, constant: 0).isActive              =   true
+        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -8).isActive                        =   true
+        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.2, constant: 0).isActive          =   true
     }
 }
 
