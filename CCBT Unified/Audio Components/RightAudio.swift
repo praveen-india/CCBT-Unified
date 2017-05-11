@@ -24,30 +24,23 @@ class RightAudio: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        
-        // Do any additional setup after loading the view.
     }
     
-   
-    override func viewWillAppear(_ animated: Bool) {
+    
+    override func viewDidAppear(_ animated: Bool) {
         if audioLink    !=  nil {
             self.playAudio()
             
         }
-        
     }
-    
+
     
     
     func playAudio(){
         updater =   CADisplayLink(target: self, selector: #selector(RightAudio.trackAudio))
         updater?.frameInterval  =   1
         updater?.add(to: .current, forMode: .commonModes)
-        
         let url = URL(string:audioLink!)
-        
         
         
         do {

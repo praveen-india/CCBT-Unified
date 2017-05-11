@@ -19,3 +19,6 @@ struct CustomColor {
 
 let defaultBtnTitleColor    =   UIColor.darkText
 let dafaultBtnBackColor     =   UIColor.setColorValues(red: 220 , green: 220, blue: 220)
+
+
+

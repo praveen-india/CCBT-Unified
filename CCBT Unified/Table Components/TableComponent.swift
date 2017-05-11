@@ -6,10 +6,13 @@
 //  Copyright © 2017 Zaman Meraj. All rights reserved.
 //
 
+
+
 import UIKit
 
 class TableComponent: UIViewController , UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,8 +23,12 @@ class TableComponent: UIViewController , UITableViewDataSource, UITableViewDeleg
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+ 
     
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -29,11 +36,12 @@ class TableComponent: UIViewController , UITableViewDataSource, UITableViewDeleg
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
         let cell   =   tableView.dequeueReusableCell(withIdentifier: "LeftBtnTableCell") as! LeftBtnTableCell
         cell.textLabel?.text    =   ""
         return cell
     }
-
     
-  
+    
 }
