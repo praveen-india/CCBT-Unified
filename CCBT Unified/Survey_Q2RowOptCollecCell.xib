@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Survey_Q2RowOptCollecCell" customModule="CCBT_Unified" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="195"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="195"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F5H-At-Dq1">
+                        <rect key="frame" x="0.0" y="0.0" width="354" height="195"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ou6-HK-CCV">
+                                <rect key="frame" x="19" y="80.5" width="34.5" height="35.5"/>
+                                <color key="backgroundColor" red="0.070338539780000001" green="0.50253468749999997" blue="0.71337801219999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ou6-HK-CCV" secondAttribute="height" multiplier="1:1" id="GIK-FL-CpS"/>
+                                </constraints>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ee7-Ne-R1R">
+                                <rect key="frame" x="74.5" y="0.0" width="263.5" height="195"/>
+                                <string key="text">Option text
+ghdshjhdgdshsdhjagsdasfshdksakdjhsjhfjksahfjshjhsajfhsadjkfhsakdjhfjksdhfjkhsakjhfskjdhfjhsdfjhsdjfhjskahfjashjkkasjdhfjsdfhjsdfhjsdhjkfhsdjfhsdjkhfjksdhfjsdhjkfhsdakhjkahjkdshajhsdjhfjskhfjshdkf</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ee7-Ne-R1R" firstAttribute="centerY" secondItem="ou6-HK-CCV" secondAttribute="centerY" id="6Vm-Jo-h04"/>
+                            <constraint firstItem="ou6-HK-CCV" firstAttribute="centerX" secondItem="F5H-At-Dq1" secondAttribute="centerX" multiplier="0.2" id="RU9-TS-EVf"/>
+                            <constraint firstItem="ou6-HK-CCV" firstAttribute="centerY" secondItem="F5H-At-Dq1" secondAttribute="centerY" id="VfJ-aP-TXA"/>
+                            <constraint firstItem="ou6-HK-CCV" firstAttribute="width" secondItem="F5H-At-Dq1" secondAttribute="width" multiplier="0.1" id="WaB-Ox-FsY"/>
+                            <constraint firstItem="Ee7-Ne-R1R" firstAttribute="leading" secondItem="ou6-HK-CCV" secondAttribute="trailing" multiplier="1.4" id="aqS-tJ-4A5"/>
+                            <constraint firstAttribute="trailing" secondItem="Ee7-Ne-R1R" secondAttribute="trailing" multiplier="1.05" id="i3S-Zk-sfb"/>
+                            <constraint firstAttribute="bottom" secondItem="Ee7-Ne-R1R" secondAttribute="bottom" id="vQJ-ff-CLq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="F5H-At-Dq1" secondAttribute="bottom" id="8NS-j4-zZc"/>
+                <constraint firstItem="F5H-At-Dq1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZGZ-vE-gcJ"/>
+                <constraint firstAttribute="trailing" secondItem="F5H-At-Dq1" secondAttribute="trailing" id="tf5-nH-4jw"/>
+                <constraint firstItem="F5H-At-Dq1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uJB-Zg-Cnj"/>
+            </constraints>
+            <size key="customSize" width="354" height="195"/>
+            <point key="canvasLocation" x="29" y="-62.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftImage" customModule="CCBT_Unified" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="hTV-Hy-V56">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JfU-FE-5eb">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="meY-RA-dcW">
+                    <rect key="frame" x="8" y="0.0" width="179.5" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99J-9g-Una">
+                    <rect key="frame" x="196" y="-0.5" width="171" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pMY-bt-wPq">
+                    <rect key="frame" x="196" y="28.5" width="171" height="639"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="meY-RA-dcW" firstAttribute="top" secondItem="hTV-Hy-V56" secondAttribute="top" id="1DB-Lr-HhY"/>
+                <constraint firstAttribute="trailingMargin" secondItem="pMY-bt-wPq" secondAttribute="trailing" id="6HM-FS-zrj"/>
+                <constraint firstAttribute="bottom" secondItem="JfU-FE-5eb" secondAttribute="bottom" id="AO0-dS-aPc"/>
+                <constraint firstItem="meY-RA-dcW" firstAttribute="leading" secondItem="hTV-Hy-V56" secondAttribute="leadingMargin" id="FV0-E3-297"/>
+                <constraint firstItem="JfU-FE-5eb" firstAttribute="leading" secondItem="hTV-Hy-V56" secondAttribute="leading" id="FoB-wg-bdm"/>
+                <constraint firstItem="pMY-bt-wPq" firstAttribute="bottom" secondItem="meY-RA-dcW" secondAttribute="bottom" id="I7F-s2-Jcq"/>
+                <constraint firstItem="99J-9g-Una" firstAttribute="top" secondItem="meY-RA-dcW" secondAttribute="top" id="NDk-R3-vmr"/>
+                <constraint firstAttribute="bottom" secondItem="meY-RA-dcW" secondAttribute="bottom" id="PnT-KV-4s5"/>
+                <constraint firstItem="meY-RA-dcW" firstAttribute="trailing" secondItem="hTV-Hy-V56" secondAttribute="centerX" id="XRs-fq-Np9"/>
+                <constraint firstItem="pMY-bt-wPq" firstAttribute="leading" secondItem="meY-RA-dcW" secondAttribute="trailing" constant="8" id="Z98-yH-Zie"/>
+                <constraint firstItem="pMY-bt-wPq" firstAttribute="top" secondItem="99J-9g-Una" secondAttribute="bottom" constant="8" id="pGt-UO-1Iv"/>
+                <constraint firstItem="99J-9g-Una" firstAttribute="leading" secondItem="meY-RA-dcW" secondAttribute="trailing" constant="8" id="sl4-x9-MaZ"/>
+                <constraint firstItem="meY-RA-dcW" firstAttribute="centerY" secondItem="hTV-Hy-V56" secondAttribute="centerY" id="tac-Ae-L0r"/>
+                <constraint firstAttribute="trailing" secondItem="JfU-FE-5eb" secondAttribute="trailing" id="tj3-fo-uga"/>
+                <constraint firstItem="99J-9g-Una" firstAttribute="trailing" secondItem="hTV-Hy-V56" secondAttribute="trailingMargin" id="v3p-pY-oS3"/>
+                <constraint firstItem="JfU-FE-5eb" firstAttribute="top" secondItem="hTV-Hy-V56" secondAttribute="top" id="z1Z-B8-hxw"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

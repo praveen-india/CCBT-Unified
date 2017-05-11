@@ -72,28 +72,24 @@ class Vertical_2: UIViewController {
 extension Vertical_2 {
     
     func setCustomView1Constraint(){
-        
         self.customView1.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 10).isActive = true
         self.customView1.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5, constant: -10).isActive = true
-        self.customView1.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.8, constant: 0).isActive = true
-        self.customView1.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 0).isActive = true
-        
+        self.customView1.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.65, constant: 0).isActive = true
+        self.customView1.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 10).isActive = true
     }
     
     func setCustomView2Constraint(){
-        
         self.customView2.leadingAnchor.constraint(equalTo: self.customView1.trailingAnchor, constant: 10).isActive = true
-        self.customView2.widthAnchor.constraint(equalTo: self.customView1.widthAnchor, multiplier: 1, constant: -20).isActive = true
+        self.customView2.widthAnchor.constraint(equalTo: self.customView1.widthAnchor, multiplier: 1, constant: -10).isActive = true
         self.customView2.heightAnchor.constraint(equalTo: self.customView1.heightAnchor, multiplier: 1, constant: 0).isActive = true
         self.customView2.centerYAnchor.constraint(equalTo: self.customView1.centerYAnchor, constant: 0).isActive = true
-        
     }
     
     func setContinueBtnConstraint(){
-        self.continueBtn.topAnchor.constraint(equalTo: self.customView2.bottomAnchor, constant: 10).isActive = true
-        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -10).isActive = true
-        self.continueBtn.trailingAnchor.constraint(equalTo: self.customView2.trailingAnchor, constant: 0).isActive = true
-        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.24, constant: 0).isActive = true
+        self.continueBtn.topAnchor.constraint(equalTo: self.customView2.bottomAnchor, constant: 8).isActive         = true
+        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -8).isActive            = true
+        self.continueBtn.trailingAnchor.constraint(equalTo: self.customView2.trailingAnchor, constant: 0).isActive  = true
+        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.2, constant: 0).isActive = true
     }
     
 }

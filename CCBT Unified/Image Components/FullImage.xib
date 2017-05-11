@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FullImage" customModule="CCBT_Unified" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Sm2-JU-AxZ" id="7Mi-Oq-eaf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sm2-JU-AxZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Sm2-JU-AxZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="S7q-Id-drW"/>
+                <constraint firstItem="Sm2-JU-AxZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TTH-0a-4m2"/>
+                <constraint firstAttribute="bottom" secondItem="Sm2-JU-AxZ" secondAttribute="bottom" id="gfS-ms-RPE"/>
+                <constraint firstAttribute="trailing" secondItem="Sm2-JU-AxZ" secondAttribute="trailing" id="q4R-XI-j6U"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="59.5"/>
+        </view>
+    </objects>
+</document>

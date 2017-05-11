@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftImageRWebView" customModule="CCBT_Unified" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="1VV-a4-ixN" id="Hms-Wj-wPW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="MIQ-wA-WZQ" id="wkM-7C-y1K"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="470" height="361"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1VV-a4-ixN">
+                    <rect key="frame" x="0.0" y="0.0" width="235" height="361"/>
+                </imageView>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIQ-wA-WZQ">
+                    <rect key="frame" x="235" y="0.0" width="235" height="361"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MIQ-wA-WZQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1Z0-sl-7ZP"/>
+                <constraint firstAttribute="bottom" secondItem="MIQ-wA-WZQ" secondAttribute="bottom" id="KUh-UR-chE"/>
+                <constraint firstAttribute="bottom" secondItem="1VV-a4-ixN" secondAttribute="bottom" id="X3r-ha-zD5"/>
+                <constraint firstItem="1VV-a4-ixN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Z0a-nf-MQ3"/>
+                <constraint firstAttribute="trailing" secondItem="MIQ-wA-WZQ" secondAttribute="trailing" id="cuP-UZ-EMF"/>
+                <constraint firstItem="1VV-a4-ixN" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="e0J-3t-sWu"/>
+                <constraint firstItem="1VV-a4-ixN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="f7u-tg-d7F"/>
+                <constraint firstItem="MIQ-wA-WZQ" firstAttribute="leading" secondItem="1VV-a4-ixN" secondAttribute="trailing" id="nPv-z9-Llu"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="72" y="-100.5"/>
+        </view>
+    </objects>
+</document>

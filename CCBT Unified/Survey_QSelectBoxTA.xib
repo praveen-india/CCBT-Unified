@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Survey_QSelectBoxTA" customModule="CCBT_Unified" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="505" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="505" height="176"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSg-cx-ve5">
+                        <rect key="frame" x="0.0" y="0.0" width="505" height="176"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUESTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRm-cx-rV8">
+                                <rect key="frame" x="0.0" y="15" width="505" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXM-Ra-ui4">
+                                <rect key="frame" x="0.0" y="54" width="151.5" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Select Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxn-Cm-YtY">
+                                        <rect key="frame" x="0.0" y="-0.5" width="121" height="21.5"/>
+                                        <color key="backgroundColor" red="0.11934246867895126" green="0.71247988939285278" blue="0.99998980760574341" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBT-AO-h0D">
+                                        <rect key="frame" x="121" y="0.0" width="30.5" height="21"/>
+                                        <state key="normal" backgroundImage="drop_down_image(35*35) copy.png"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="cBT-AO-h0D" secondAttribute="trailing" id="0ch-Gs-pDB"/>
+                                    <constraint firstItem="cBT-AO-h0D" firstAttribute="leading" secondItem="Zxn-Cm-YtY" secondAttribute="trailing" id="9ry-QA-S5y"/>
+                                    <constraint firstItem="Zxn-Cm-YtY" firstAttribute="width" secondItem="aXM-Ra-ui4" secondAttribute="width" multiplier="0.8" id="a5C-o2-1G5"/>
+                                    <constraint firstItem="cBT-AO-h0D" firstAttribute="top" secondItem="aXM-Ra-ui4" secondAttribute="top" id="gvJ-Mf-v5w"/>
+                                    <constraint firstItem="Zxn-Cm-YtY" firstAttribute="leading" secondItem="aXM-Ra-ui4" secondAttribute="leading" id="lhs-QB-wIQ"/>
+                                    <constraint firstItem="Zxn-Cm-YtY" firstAttribute="top" secondItem="aXM-Ra-ui4" secondAttribute="top" id="pu8-RQ-fbd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Zxn-Cm-YtY" secondAttribute="bottom" id="qvj-p1-CiV"/>
+                                    <constraint firstAttribute="bottom" secondItem="cBT-AO-h0D" secondAttribute="bottom" id="vbs-Io-yvm"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qza-LE-dWP">
+                                <rect key="frame" x="0.0" y="77.5" width="505" height="82.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qza-LE-dWP" secondAttribute="trailing" id="0Ia-dl-KtX"/>
+                            <constraint firstItem="aXM-Ra-ui4" firstAttribute="width" secondItem="FSg-cx-ve5" secondAttribute="width" multiplier="0.3" id="9HU-3t-OyB"/>
+                            <constraint firstItem="Qza-LE-dWP" firstAttribute="leading" secondItem="FSg-cx-ve5" secondAttribute="leading" id="9dD-QX-s0b"/>
+                            <constraint firstAttribute="bottom" secondItem="Qza-LE-dWP" secondAttribute="bottom" multiplier="1.1" id="EJb-s8-ejo"/>
+                            <constraint firstItem="cRm-cx-rV8" firstAttribute="top" secondItem="FSg-cx-ve5" secondAttribute="top" constant="15" id="ERf-5i-paW"/>
+                            <constraint firstItem="aXM-Ra-ui4" firstAttribute="height" secondItem="FSg-cx-ve5" secondAttribute="height" multiplier="0.12" id="dQ6-cR-iin"/>
+                            <constraint firstItem="aXM-Ra-ui4" firstAttribute="leading" secondItem="FSg-cx-ve5" secondAttribute="leading" id="euH-d0-W2a"/>
+                            <constraint firstAttribute="trailing" secondItem="cRm-cx-rV8" secondAttribute="trailing" id="up6-DA-lGf"/>
+                            <constraint firstItem="aXM-Ra-ui4" firstAttribute="top" secondItem="cRm-cx-rV8" secondAttribute="bottom" multiplier="1.5" id="xQ4-6d-M1h"/>
+                            <constraint firstItem="Qza-LE-dWP" firstAttribute="top" secondItem="aXM-Ra-ui4" secondAttribute="bottom" multiplier="1.03" id="xdz-ap-fcc"/>
+                            <constraint firstItem="cRm-cx-rV8" firstAttribute="leading" secondItem="FSg-cx-ve5" secondAttribute="leading" id="xhX-xA-syT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FSg-cx-ve5" secondAttribute="trailing" id="NCO-Fj-0nK"/>
+                <constraint firstItem="FSg-cx-ve5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ihb-4i-fqH"/>
+                <constraint firstAttribute="bottom" secondItem="FSg-cx-ve5" secondAttribute="bottom" id="mZ9-Uj-yH8"/>
+                <constraint firstItem="FSg-cx-ve5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sWh-MM-euA"/>
+            </constraints>
+            <size key="customSize" width="505" height="176"/>
+            <point key="canvasLocation" x="-24.5" y="-56"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="drop_down_image(35*35) copy.png" width="35" height="35"/>
+    </resources>
+</document>

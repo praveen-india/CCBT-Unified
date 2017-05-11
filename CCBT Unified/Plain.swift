@@ -75,12 +75,10 @@ extension Plain {
         self.customView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.95, constant: 0).isActive = true
         self.customView.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.85, constant: -74).isActive = true
     }
-    
     func setContinueBtnConstraint(){
-        self.continueBtn.topAnchor.constraint(equalTo: self.customView.bottomAnchor, constant: 10).isActive = true
-        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -10).isActive = true
+        self.continueBtn.topAnchor.constraint(equalTo: self.customView.bottomAnchor, constant: 8).isActive = true
+        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -8).isActive = true
         self.continueBtn.trailingAnchor.constraint(equalTo: self.customView.trailingAnchor, constant: 0).isActive = true
-        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.24, constant: 0).isActive = true
+        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.2, constant: 0).isActive = true
     }
-    
 }

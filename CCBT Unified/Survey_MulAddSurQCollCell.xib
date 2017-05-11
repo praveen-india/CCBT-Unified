@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Survey_MulAddSurQCollCell" customModule="CCBT_Unified" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="211"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="460" height="211"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2y-vO-J4G">
+                        <rect key="frame" x="0.0" y="0.0" width="460" height="211"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EjX-4R-yxi">
+                                <rect key="frame" x="8" y="31.5" width="276" height="148"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Question Text
+gsadhghsgdjsdgsghjkahsjghjkdfghsfdjghdsfjhjdskfdhfgkdfhdskjhgjkdhjkghdkjfghkdjfhgjdshgkjhkfjsdjfghjdfhkgdsfghksdhfkghdfjhgjdfhgjjdfhkgjdfjdsfjghdsjkfgkjsdfkjdgfgdfgd</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sWi-if-LyN">
+                                <rect key="frame" x="289.5" y="31.5" width="170.5" height="148"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Otion Text
+
+Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EjX-4R-yxi" firstAttribute="leading" secondItem="c2y-vO-J4G" secondAttribute="leading" constant="8" id="1Qf-g6-zFp"/>
+                            <constraint firstItem="sWi-if-LyN" firstAttribute="height" secondItem="EjX-4R-yxi" secondAttribute="height" id="70z-VQ-nTh"/>
+                            <constraint firstItem="EjX-4R-yxi" firstAttribute="width" secondItem="c2y-vO-J4G" secondAttribute="width" multiplier="0.6" id="ChS-Q6-ekt"/>
+                            <constraint firstItem="EjX-4R-yxi" firstAttribute="centerY" secondItem="c2y-vO-J4G" secondAttribute="centerY" id="HU4-va-1sh"/>
+                            <constraint firstAttribute="trailing" secondItem="sWi-if-LyN" secondAttribute="trailing" id="Z9J-ff-QTW"/>
+                            <constraint firstItem="EjX-4R-yxi" firstAttribute="height" secondItem="c2y-vO-J4G" secondAttribute="height" multiplier="0.7" id="afL-6e-ouy"/>
+                            <constraint firstItem="sWi-if-LyN" firstAttribute="centerY" secondItem="EjX-4R-yxi" secondAttribute="centerY" id="faM-Ld-6mm"/>
+                            <constraint firstItem="sWi-if-LyN" firstAttribute="leading" secondItem="EjX-4R-yxi" secondAttribute="trailing" multiplier="1.02" id="oVP-qG-EVI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="c2y-vO-J4G" secondAttribute="bottom" id="VAG-hw-xQN"/>
+                <constraint firstAttribute="trailing" secondItem="c2y-vO-J4G" secondAttribute="trailing" id="d8n-vG-EjS"/>
+                <constraint firstItem="c2y-vO-J4G" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dBP-Rh-Vb3"/>
+                <constraint firstItem="c2y-vO-J4G" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="p3A-Kq-1wc"/>
+            </constraints>
+            <size key="customSize" width="460" height="211"/>
+            <point key="canvasLocation" x="-13" y="9.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

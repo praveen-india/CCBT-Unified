@@ -89,7 +89,7 @@ extension Top_1_Bottom_2 {
         self.customView1.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 74).isActive = true
         self.customView1.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 10).isActive = true
         self.customView1.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -10).isActive = true
-        self.customView1.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.5, constant: -74).isActive = true
+        self.customView1.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.51, constant: -74).isActive = true
         
     }
     
@@ -98,7 +98,7 @@ extension Top_1_Bottom_2 {
         self.customView2.topAnchor.constraint(equalTo: self.customView1.bottomAnchor, constant: 10).isActive = true
         self.customView2.leadingAnchor.constraint(equalTo: self.customView1.leadingAnchor, constant: 0).isActive = true
         self.customView2.heightAnchor.constraint(equalTo: self.customView1.heightAnchor, multiplier: 1, constant: 0).isActive = true
-        self.customView2.widthAnchor.constraint(equalTo: self.customView1.widthAnchor,multiplier: 0.52, constant: 0).isActive = true
+        self.customView2.widthAnchor.constraint(equalTo: self.customView1.widthAnchor,multiplier: 0.54, constant: 0).isActive = true
         
     }
     
@@ -113,10 +113,10 @@ extension Top_1_Bottom_2 {
     
     func setContinueBtnConstraint(){
         
-        self.continueBtn.topAnchor.constraint(equalTo: self.customView3.bottomAnchor, constant: 10).isActive = true
+        self.continueBtn.topAnchor.constraint(equalTo: self.customView3.bottomAnchor, constant: 8).isActive = true
         self.continueBtn.trailingAnchor.constraint(equalTo: self.customView3.trailingAnchor, constant: 0).isActive = true
-        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -10).isActive = true
-        self.continueBtn.widthAnchor.constraint(equalTo: self.customView2.widthAnchor, multiplier: 0.4, constant: 0).isActive = true
+        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -8).isActive = true
+        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.2, constant: 0).isActive = true
     }
     
     

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CCBT Unified/Text_left_Right_Video_VC.swift"
+            timestampString = "514896450.243412"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CCBT Unified/LeftVideo_RightTopHeading_Text.swift"
+            timestampString = "515663900.772599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "LeftVideo_RightTopHeading_Text"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCBT_Unified.LeftVideo_RightTopHeading_Text.__deallocating_deinit"
+                  moduleName = "CCBT Unified"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prashant/Desktop/CCBT_Unified_PraveenSir/CCBT%20Unified/LeftVideo_RightTopHeading_Text.swift"
+                  timestampString = "515745239.947397"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCBT_Unified.LeftVideo_RightTopHeading_Text.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CCBT_Unified.LeftVideo_RightTopHeading_Text"
+                  moduleName = "CCBT Unified"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prashant/Desktop/CCBT_Unified_PraveenSir/CCBT%20Unified/LeftVideo_RightTopHeading_Text.swift"
+                  timestampString = "515745239.950889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCBT_Unified.LeftVideo_RightTopHeading_Text.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CCBT_Unified.LeftVideo_RightTopHeading_Text"
+                  moduleName = "CCBT Unified"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prashant/Desktop/CCBT_Unified_PraveenSir/CCBT%20Unified/LeftVideo_RightTopHeading_Text.swift"
+                  timestampString = "515745239.953868"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCBT_Unified.LeftVideo_RightTopHeading_Text.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CCBT_Unified.LeftVideo_RightTopHeading_Text&gt;"
+                  moduleName = "CCBT Unified"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prashant/Desktop/CCBT_Unified_PraveenSir/CCBT%20Unified/LeftVideo_RightTopHeading_Text.swift"
+                  timestampString = "515745239.956029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCBT_Unified.LeftVideo_RightTopHeading_Text.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CCBT_Unified.LeftVideo_RightTopHeading_Text&gt;"
+                  moduleName = "CCBT Unified"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prashant/Desktop/CCBT_Unified_PraveenSir/CCBT%20Unified/LeftVideo_RightTopHeading_Text.swift"
+                  timestampString = "515745239.958196"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "63">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

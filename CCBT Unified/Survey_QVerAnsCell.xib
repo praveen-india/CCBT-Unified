@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Survey_QVerAnsCell" id="gTV-IL-0wX" customClass="Survey_QVerAnsCell" customModule="CCBT_Unified" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="522" height="363"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="522" height="363"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L8I-48-YFg">
+                        <rect key="frame" x="0.0" y="0.0" width="522" height="363"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROGRESS + TOPIC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwK-yA-yKr">
+                                <rect key="frame" x="0.0" y="0.0" width="522" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RwQ-ZT-XAw" userLabel="QText View">
+                                <rect key="frame" x="0.0" y="23" width="522" height="91"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Question: 
+hsagdhdsjkfhfasdagbdsbgfdfjksbgbdgjkdgbdhfbgjksdgjhdfghsjdfghdjhdjkfsghkdjhgjkhdfjkhgjdfkhsgjkdh</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AQF-bo-f6V">
+                                <rect key="frame" x="0.0" y="123" width="522" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AQF-bo-f6V" firstAttribute="top" secondItem="RwQ-ZT-XAw" secondAttribute="bottom" multiplier="1.08" id="19g-IM-GjG"/>
+                            <constraint firstItem="qwK-yA-yKr" firstAttribute="leading" secondItem="L8I-48-YFg" secondAttribute="leading" id="2Si-Uf-JoX"/>
+                            <constraint firstItem="RwQ-ZT-XAw" firstAttribute="top" secondItem="qwK-yA-yKr" secondAttribute="bottom" multiplier="1.1" id="CxX-aW-xcy"/>
+                            <constraint firstAttribute="bottom" secondItem="AQF-bo-f6V" secondAttribute="bottom" id="Hdl-JO-Hqk"/>
+                            <constraint firstAttribute="trailing" secondItem="qwK-yA-yKr" secondAttribute="trailing" id="IIl-nu-Aw4"/>
+                            <constraint firstAttribute="trailing" secondItem="AQF-bo-f6V" secondAttribute="trailing" id="P4o-4M-w2A"/>
+                            <constraint firstItem="qwK-yA-yKr" firstAttribute="top" secondItem="L8I-48-YFg" secondAttribute="top" id="R8i-or-572"/>
+                            <constraint firstItem="RwQ-ZT-XAw" firstAttribute="height" secondItem="L8I-48-YFg" secondAttribute="height" multiplier="0.25" id="VOo-bV-g3I"/>
+                            <constraint firstItem="RwQ-ZT-XAw" firstAttribute="leading" secondItem="L8I-48-YFg" secondAttribute="leading" id="de8-Ct-7vD"/>
+                            <constraint firstItem="AQF-bo-f6V" firstAttribute="leading" secondItem="L8I-48-YFg" secondAttribute="leading" id="hBI-V0-EmE"/>
+                            <constraint firstAttribute="trailing" secondItem="RwQ-ZT-XAw" secondAttribute="trailing" id="n2I-If-pQZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="L8I-48-YFg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IIg-Ll-mlh"/>
+                <constraint firstItem="L8I-48-YFg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Jl3-PS-MrC"/>
+                <constraint firstAttribute="trailing" secondItem="L8I-48-YFg" secondAttribute="trailing" id="Shx-zt-Pfc"/>
+                <constraint firstAttribute="bottom" secondItem="L8I-48-YFg" secondAttribute="bottom" id="Smq-b8-CL3"/>
+            </constraints>
+            <size key="customSize" width="522" height="363"/>
+            <point key="canvasLocation" x="22" y="-110.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

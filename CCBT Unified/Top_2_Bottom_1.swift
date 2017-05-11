@@ -52,7 +52,7 @@ class Top_2_Bottom_1: UIViewController {
     var customView3 : AnyObject = {
         
         let view = UIView()
-        view.backgroundColor = UIColor.yellow
+        view.backgroundColor = UIColor.brown
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -110,10 +110,10 @@ extension Top_2_Bottom_1 {
     
     func setContinueBtnConstraint(){
         
-        self.continueBtn.topAnchor.constraint(equalTo: self.customView3.bottomAnchor, constant: 10).isActive = true
+        self.continueBtn.topAnchor.constraint(equalTo: self.customView3.bottomAnchor, constant: 8).isActive = true
         self.continueBtn.trailingAnchor.constraint(equalTo: self.customView3.trailingAnchor, constant: 0).isActive = true
-        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -10).isActive = true
-        self.continueBtn.widthAnchor.constraint(equalTo: self.customView2.widthAnchor, multiplier: 0.4, constant: 0).isActive = true
+        self.continueBtn.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -8).isActive = true
+        self.continueBtn.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.2, constant: 0).isActive = true
     }
     
     

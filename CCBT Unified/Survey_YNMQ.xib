@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Survey_YNMQ" customModule="CCBT_Unified" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="691" height="595"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="691" height="595"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJ6-Eb-PSg">
+                        <rect key="frame" x="0.0" y="0.0" width="691" height="595"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IYT-nu-ldZ" userLabel="Video View">
+                                <rect key="frame" x="0.0" y="0.0" width="242" height="357"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b89-vs-xT3">
+                                <rect key="frame" x="266" y="0.0" width="425" height="357"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JO-mB-uEy">
+                                <rect key="frame" x="72.5" y="393.5" width="96.5" height="64.5"/>
+                                <color key="backgroundColor" red="0.070338539779186249" green="0.50253468751907349" blue="0.71337801218032837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sr3-du-G6O">
+                                <rect key="frame" x="202.5" y="393.5" width="97" height="64.5"/>
+                                <color key="backgroundColor" red="0.070338539780000001" green="0.50253468749999997" blue="0.71337801219999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWw-kw-lIg">
+                                <rect key="frame" x="329.5" y="393.5" width="96" height="64.5"/>
+                                <color key="backgroundColor" red="0.070338539780000001" green="0.50253468749999997" blue="0.71337801219999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="May Be">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Sr3-du-G6O" firstAttribute="height" secondItem="0JO-mB-uEy" secondAttribute="height" id="2bY-33-wLT"/>
+                            <constraint firstAttribute="bottom" secondItem="0JO-mB-uEy" secondAttribute="bottom" multiplier="1.3" id="4hY-rg-Bcl"/>
+                            <constraint firstItem="b89-vs-xT3" firstAttribute="height" secondItem="IYT-nu-ldZ" secondAttribute="height" id="DUs-Xz-eNP"/>
+                            <constraint firstItem="oWw-kw-lIg" firstAttribute="leading" secondItem="Sr3-du-G6O" secondAttribute="trailing" multiplier="1.1" id="E7H-pG-PkB"/>
+                            <constraint firstItem="IYT-nu-ldZ" firstAttribute="height" secondItem="lJ6-Eb-PSg" secondAttribute="height" multiplier="0.6" id="KtM-mO-Wsv"/>
+                            <constraint firstItem="Sr3-du-G6O" firstAttribute="width" secondItem="0JO-mB-uEy" secondAttribute="width" id="Kvt-PO-fRr"/>
+                            <constraint firstItem="IYT-nu-ldZ" firstAttribute="leading" secondItem="lJ6-Eb-PSg" secondAttribute="leading" id="P6J-2J-NTl"/>
+                            <constraint firstItem="0JO-mB-uEy" firstAttribute="width" secondItem="IYT-nu-ldZ" secondAttribute="width" multiplier="0.4" id="PW0-QG-elV"/>
+                            <constraint firstItem="oWw-kw-lIg" firstAttribute="width" secondItem="0JO-mB-uEy" secondAttribute="width" id="UIa-pi-VOj"/>
+                            <constraint firstItem="oWw-kw-lIg" firstAttribute="height" secondItem="0JO-mB-uEy" secondAttribute="height" id="bCu-1M-mhK"/>
+                            <constraint firstItem="b89-vs-xT3" firstAttribute="top" secondItem="lJ6-Eb-PSg" secondAttribute="top" id="daK-DL-a2B"/>
+                            <constraint firstItem="0JO-mB-uEy" firstAttribute="centerX" secondItem="IYT-nu-ldZ" secondAttribute="centerX" id="fMO-NK-ZXl"/>
+                            <constraint firstItem="IYT-nu-ldZ" firstAttribute="top" secondItem="lJ6-Eb-PSg" secondAttribute="top" id="lEu-Xu-0qc"/>
+                            <constraint firstItem="0JO-mB-uEy" firstAttribute="top" secondItem="IYT-nu-ldZ" secondAttribute="bottom" multiplier="1.1" id="nG6-IN-I2b"/>
+                            <constraint firstItem="IYT-nu-ldZ" firstAttribute="width" secondItem="lJ6-Eb-PSg" secondAttribute="width" multiplier="0.35" id="pUm-H2-a9A"/>
+                            <constraint firstItem="Sr3-du-G6O" firstAttribute="centerY" secondItem="0JO-mB-uEy" secondAttribute="centerY" id="u2d-Hs-MoD"/>
+                            <constraint firstItem="b89-vs-xT3" firstAttribute="leading" secondItem="IYT-nu-ldZ" secondAttribute="trailing" multiplier="1.1" id="uJC-60-oQL"/>
+                            <constraint firstItem="Sr3-du-G6O" firstAttribute="leading" secondItem="0JO-mB-uEy" secondAttribute="trailing" multiplier="1.2" id="vq4-hf-VzG"/>
+                            <constraint firstItem="oWw-kw-lIg" firstAttribute="centerY" secondItem="0JO-mB-uEy" secondAttribute="centerY" id="yaC-do-Cwa"/>
+                            <constraint firstAttribute="trailing" secondItem="b89-vs-xT3" secondAttribute="trailing" id="yva-aN-FVP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="lJ6-Eb-PSg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="L9K-GD-lDc"/>
+                <constraint firstItem="lJ6-Eb-PSg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QXP-To-Hl9"/>
+                <constraint firstAttribute="bottom" secondItem="lJ6-Eb-PSg" secondAttribute="bottom" id="iQ7-Aq-adX"/>
+                <constraint firstAttribute="trailing" secondItem="lJ6-Eb-PSg" secondAttribute="trailing" id="vLx-Ny-hKh"/>
+            </constraints>
+            <size key="customSize" width="691" height="595"/>
+            <point key="canvasLocation" x="68.5" y="155.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

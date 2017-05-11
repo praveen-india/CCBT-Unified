@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.4.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftCharts (0.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - SDWebImage (~> 3.8)
+  - SwiftCharts (~> 0.6)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftCharts: d8e6d60679bc982f48f8bea25cf5c1b94fcfec4f
+
+PODFILE CHECKSUM: 7499b3883c421a2960b035d44796fee56a62fc9e
+
+COCOAPODS: 1.1.1
